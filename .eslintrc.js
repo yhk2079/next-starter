@@ -63,5 +63,7 @@ module.exports = {
     ],
     // Note: https://github.com/benmosher/eslint-plugin-import/issues/422#issuecomment-231076722
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    // Note: https://github.com/yannickcr/eslint-plugin-react/issues/2387
+    'react/jsx-props-no-spreading': 0,
   },
 };
