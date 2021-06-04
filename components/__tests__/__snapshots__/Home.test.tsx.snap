@@ -1,11 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home page should render Home 1`] = `
+exports[`should render Home with axios and nock 1`] = `
 <DocumentFragment>
-  <div
-    class="Home__Title-sc-16woefq-0 zWCpI"
-  >
-    the world
+  <div>
+    <div
+      class="Home__Title-sc-16woefq-0 zWCpI"
+    >
+      the world
+    </div>
+    <div>
+      Users
+      <div>
+        <div>
+          email: test@email.com
+        </div>
+        <div>
+          name: test
+        </div>
+      </div>
+    </div>
   </div>
 </DocumentFragment>
 `;
